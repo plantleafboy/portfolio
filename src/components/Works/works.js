@@ -13,6 +13,12 @@ const Works = () => {
             <h2 className="worksTitle">My Portfolio</h2>
             <span className="worksDesc">I take enjoyment and thrive in creating whole experiences to shape ideas completely and take pride in creating outstanding work down to each line of code and like to spin up ideas. I am eager to offer my skills and knowledge to help businesses achieve their goals.</span>
             <div className="worksImgs">
+                {/*<a href="https://ucbadminton.club/">raw HTML/CSS club page*/}
+                {/*    <img src={Portfolio2} alt="" className="worksImg"/>*/}
+                {/*</a>*/}
+                {/*<a href="https://ucbadminton.club/">raw HTML/CSS club page*/}
+                {/*    <img src={Portfolio2} alt="" className="worksImg"/>*/}
+                {/*</a>*/}
                 <a href="https://starfish-app-hay8g.ondigitalocean.app/">Sample dashboard layout
                     <img src={Portfolio1} alt="" className="worksImg"/>
                 </a>
@@ -20,12 +26,17 @@ const Works = () => {
                     <img src={Portfolio2} alt="" className="worksImg"/>
                 </a>
 
-                <img src={Portfolio3} alt="" className="worksImg" />
-                <img src={Portfolio4} alt="" className="worksImg" />
-                <img src={Portfolio5} alt="" className="worksImg" />
-                <img src={Portfolio6} alt="" className="worksImg" />
+                <a href="https://shark-app-rlemm.ondigitalocean.app/">Styled Calculator
+                    <img src={Portfolio2} alt="" className="worksImg"/>
+                </a>
+                <a href="https://ucbadminton.club/">raw HTML/CSS club page
+                    <img src={Portfolio2} alt="" className="worksImg"/>
+                </a>
+                <a href="https://lionfish-app-ujlor.ondigitalocean.app/">Etch-a-Sketch JS event project
+                    <img src={Portfolio2} alt="" className="worksImg"/>
+                </a>
             </div>
-            <button className="workBtn">See More</button>
+            {/*<button className="workBtn">See More</button>*/}
         </section>
     );
 }
