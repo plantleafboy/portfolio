@@ -8,18 +8,18 @@ import Portfolio5 from '../../assets/portfolio-5.png';
 import Portfolio6 from '../../assets/portfolio-6.png';
 
 const projects = [
-    {
-        name: "NZ Visa Helper Website",
-        link: "https://ucbadminton.club/",
-        image: Portfolio2,
-        description: "A website to assist with NZ visa applications."
-    },
-    {
-        name: "Gardeners Social and Livestreaming App",
-        link: "https://ucbadminton.club/",
-        image: Portfolio2,
-        description: "A social platform for gardeners with livestreaming features."
-    },
+    // {
+    //     name: "NZ Visa Helper Website (in progress)",
+    //     link: "https://ucbadminton.club/",
+    //     image: Portfolio2,
+    //     description: "A website to assist with NZ visa applications."
+    // },
+    // {
+    //     name: "Gardeners Social and Livestreaming App",
+    //     link: "https://ucbadminton.club/",
+    //     image: Portfolio2,
+    //     description: "A social platform for gardeners with livestreaming features."
+    // },
     {
         name: "Dashboard Layout - CSS Grid",
         link: "https://starfish-app-hay8g.ondigitalocean.app/",
