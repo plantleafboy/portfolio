@@ -33,13 +33,17 @@
 }
 
 .introName {
-    color: yellow;
+    color:  #A1886F;
 }
 
 .introPara {
     font-size: medium;
     font-weight: 300;
     letter-spacing: 1px;
+}
+
+.construction {
+    color: grey;
 }
 
 .btn {

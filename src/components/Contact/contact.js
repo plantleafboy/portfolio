@@ -40,21 +40,21 @@ const Contact = () => {
                     <img src={NZ_visa_helper} alt="Client" className="clientImg"/>
                 </div>
             </div>
-            <div id="contact">
-                <h1 className="contactPageTitle">Contact Me</h1>
-                <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>
-                <form className="contactForm" ref={form} onSubmit={sendEmail}>
-                    <input type="text" className="name" placeholder='Your name' name='from_name' />
-                    <input type="text" className="email" placeholder='Your Email' name='from_email' />
-                    <textarea name="message" placeholder='Your Message' rows={5} className='msg' ></textarea>
-                    <button type="submit" value="Send" className='submitBtn'>Submit</button>
-                    <div className="links">
-                        <a href="https://github.com/plantleafboy" target="_blank">
-                            <img src={invertocat} alt="Github repo" className="link" />
-                        </a>
-                    </div>
-                </form>
-            </div>
+            {/*<div id="contact">*/}
+            {/*    <h1 className="contactPageTitle">Contact Me</h1>*/}
+            {/*    <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>*/}
+            {/*    <form className="contactForm" ref={form} onSubmit={sendEmail}>*/}
+            {/*        <input type="text" className="name" placeholder='Your name' name='from_name' />*/}
+            {/*        <input type="text" className="email" placeholder='Your Email' name='from_email' />*/}
+            {/*        <textarea name="message" placeholder='Your Message' rows={5} className='msg' ></textarea>*/}
+            {/*        <button type="submit" value="Send" className='submitBtn'>Submit</button>*/}
+            {/*        <div className="links">*/}
+            {/*            <a href="https://github.com/plantleafboy" target="_blank">*/}
+            {/*                <img src={invertocat} alt="Github repo" className="link" />*/}
+            {/*            </a>*/}
+            {/*        </div>*/}
+            {/*    </form>*/}
+            {/*</div>*/}
         </div>
     );
 }
