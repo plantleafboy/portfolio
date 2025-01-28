@@ -9,17 +9,17 @@ import Portfolio6 from '../../assets/portfolio-6.png';
 
 const projects = [
     // {
-    //     name: "NZ Visa Helper Website (in progress)",
+    //     name: "NZ Visa Helper Website (in progress)", TODO: add this back in
     //     link: "https://ucbadminton.club/",
     //     image: Portfolio2,
     //     description: "A website to assist with NZ visa applications."
     // },
-    // {
-    //     name: "Gardeners Social and Livestreaming App",
-    //     link: "https://ucbadminton.club/",
-    //     image: Portfolio2,
-    //     description: "A social platform for gardeners with livestreaming features."
-    // },
+    {
+        name: "Gardeners Social and Livestreaming App",
+        link: "https://github.com/plantleafboy/seng302project",
+        image: Portfolio2,
+        description: "A social platform for gardeners with livestreaming features."
+    },
     {
         name: "Dashboard Layout - CSS Grid",
         link: "https://starfish-app-hay8g.ondigitalocean.app/",
