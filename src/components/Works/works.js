@@ -49,7 +49,7 @@ const projects = [
 const Works = () => {
     return (
         <section id='works'>
-            <h2 className="worksTitle">My Portfolio</h2>
+            <h1 className="worksTitle">My Portfolio</h1>
             <span className="worksDesc">I take enjoyment in shaping engaging user experiences. As a full stack developer, I can code an effective backend that works seamlessly and enhances the user experience whilst maintaining a robust and secure back end environment.I am eager to offer my skills and knowledge to help businesses achieve their goals.</span>
 
             <ul className="projects-list">
